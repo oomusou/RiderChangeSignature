@@ -8,7 +8,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             var calculator = new Calculator();
-            var result = calculator.Add(1, 1);
+            var result = calculator.Calculate(1, 2, 3);
             
             Console.WriteLine("{0}", result);
         }
